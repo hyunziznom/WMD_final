@@ -42,13 +42,11 @@ nav ul li a:hover {
   font-size: 2.5rem;
 }
 
-#videos.video-grid {
+#videos .video-grid {
   display: grid;
-  grid-template-rows: repeat(2, 50vh); /* Set each row height to 50vh */
+  grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(2, 1fr);
-  gap: 0; /* Remove gap for full-width layout */
-  width: 100vw; /* Full viewport width */
-  height: 100vh; /* Full viewport height */
+  gap: 20px;
 }
 
 .Video {
@@ -59,6 +57,8 @@ nav ul li a:hover {
   width: 100%;
   height: 100%;
   border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #Motions {
