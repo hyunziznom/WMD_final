@@ -25,6 +25,11 @@ nav ul li {
 nav ul li a {
   color: white;
   text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+  color: rgb(255 115 0);
 }
 
 #Videos {
