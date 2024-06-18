@@ -77,16 +77,22 @@ nav ul li a:hover {
   color: rgb(185 209 255);
 }
 
-#about {
+#About {
   margin: 0;
   font-size: 6.25rem;
   color: #05f;
+  text-align: left;
   background-color: beige;
   border: 0.0625rem;
   border-radius: 0.625rem;
 }
 
+.aboutme_title {
+  margin-left: 10rem;
+}
+
 .aboutme {
+  margin-left: 10rem;
   font-size: 1.5rem;
   font-weight: 500;
   color: rgb(46 46 46);
@@ -103,16 +109,22 @@ nav ul li a:hover {
   background: url("hero-image.jpg") no-repeat center center/cover;
 }
 
-#contact {
+#Contact {
   margin: 0;
   font-size: 6.25rem;
   color: #05f;
+  text-align: left;
   background-color: beige;
   border: 0.0625rem;
   border-radius: 0.625rem;
 }
 
+.contactme_title {
+  margin-left: 10rem;
+}
+
 .contactme {
+  margin-left: 10rem;
   font-size: 3.75rem;
   font-weight: 500;
   color: rgb(255 115 0);
@@ -135,4 +147,41 @@ footer {
   color: white;
   text-align: center;
   background-color: #05f;
+}
+
+nav.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+  width: 130px;
+  height: 100vh;
+  padding-top: 20px;
+  color: white;
+  background-color: #05f;
+}
+
+nav.sidebar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav.sidebar ul li {
+  margin: 20px 0;
+}
+
+nav.sidebar ul li a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav.sidebar ul li a:hover {
+  color: rgb(255 115 0);
+  background-color: beige;
 }
