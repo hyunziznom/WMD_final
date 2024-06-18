@@ -29,7 +29,12 @@ nav ul li a {
 
 #Videos {
   padding-block: 6.25rem;
-  color: #05f;
+  color: beige;
+  background-color: #05f;
+}
+
+.title {
+  font-size: 2.5rem;
 }
 
 #videos.video-grid {
@@ -42,7 +47,7 @@ nav ul li a {
 }
 
 .Video {
-  color: rgb(46 46 46);
+  color: beige;
 }
 
 #videos iframe {
@@ -53,17 +58,18 @@ nav ul li a {
 
 #Motions {
   padding-block: 6.25rem;
-  color: #05f;
+  color: beige;
+  background-color: #05f;
 }
 
 .Motion {
-  color: rgb(46 46 46);
+  color: beige;
 }
 
 .description {
   margin-bottom: 2.625rem;
   font-style: italic;
-  color: rgb(0 41 123);
+  color: rgb(185 209 255);
 }
 
 #about {
