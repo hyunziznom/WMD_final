@@ -27,11 +27,19 @@ nav ul li a {
   text-decoration: none;
 }
 
-#projects {
+#Videos {
   color: #05f;
 }
 
-.project {
+.Video {
+  color: rgb(46, 46, 46);
+}
+
+#Motions {
+  color: #05f;
+}
+
+.Motion {
   color: rgb(46, 46, 46);
 }
 
