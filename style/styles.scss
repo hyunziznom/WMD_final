@@ -185,3 +185,44 @@ nav.sidebar ul li a:hover {
   color: rgb(255 115 0);
   background-color: beige;
 }
+
+@media (width <= 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  nav.sidebar {
+    position: static;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    padding-top: 0;
+  }
+
+  nav.sidebar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  nav.sidebar ul li {
+    margin: 0;
+  }
+
+  .content {
+    padding: 20px;
+    margin-left: 0;
+  }
+
+  #videos .video-grid {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  #projects .project-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
